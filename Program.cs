@@ -21,8 +21,9 @@ namespace ConsoleApp2
             {
                 //dataGridView1.DataSource
                 string id = reader.GetString(0);
-
-                Console.WriteLine(id);
+                string name = reader.GetString(1);
+                 
+                Console.WriteLine($"Id: {id}, Name: {name}");
             }
         }
     }
